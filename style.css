@@ -33,3 +33,22 @@
     section {
       padding: 20px;
     }
+
+    #dashboard button {
+      display: inline-block;
+      margin-right: 10px;
+      color: #fff;
+      background-color: #3498db;
+      /* Other styles */
+  }
+  
+  #dashboard .performance button,
+  #dashboard .purchase button,
+  #dashboard .supplier button,
+  #dashboard .cost button,
+  #dashboard .Risk_management button{
+    display: flex;
+    margin-right: 10px;
+
+  }
+  
