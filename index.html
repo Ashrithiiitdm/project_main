@@ -19,15 +19,47 @@
 
   <section id="dashboard">
     <!-- Your Dashboard page content goes here -->
-    <a href="#" target="_blank">Performances</a>
-    <br>
-    <a href="/purchase.html" target="_parent">Purchasing  process</a>
-    <br>
-    <a href="#" target="_blank">Supplier management</a>
-    <br>
-    <a href="#" target="_blank">Cost Optimization</a>
-    <br>
-    <a href="#" target="_blank">Risk management</a>
+    <div class="performance">
+      <button id="myButton1" onclick="redirectToPerformance()">Performance</button>
+      <script>
+        function redirectToPerformance(){
+          window.location.href='performance.html';
+        }
+      </script>
+    </div>
+    <div class="purchase">
+      <button id="myButton2" onclick="redirectToPurchase()">Purchase options</button>
+      <script>
+          // JavaScript function to redirect to performance.html
+          function redirectToPurchase() {
+              window.location.href = 'purchase.html';
+          }
+      </script>
+    </div>
+    <div class="supplier">
+      <button id="myButton3" onclick="redirectToSupplier()">Supplier management</button>
+      <script>
+        function redirectToSupplier(){
+          window.location.href='#';
+        }
+      </script>
+    </div>
+    <div class="cost">
+      <button id="myButton4" onclick="redirectToCost()">Cost management</button>
+      <script>
+        function redirectToCost(){
+          window.location.href='#';
+        }
+      </script>
+    </div>
+    <div class="Risk mangement">
+      <button id="myButton5" onclick="redirectToRisk()">Risk mangement</button>
+      <script>
+        function redirectToRisk(){
+          window.location.href='#';
+        }
+      </script> 
+    </div>
   </section>
 
   <section id="assistant" style="display:none;">
