@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>SEVA</title>
+</head>
+<body>
+
+  <header>
+    <h1>Web tools for SME's</h1>
+  </header>
+
+  <nav>
+    <a onclick="showTab('dashboard')">Dashboard</a>
+    <a onclick="showTab('assistant')">Personal Assistant</a>
+  </nav>
+
+  <section id="dashboard">
+    <!-- Your Dashboard page content goes here -->
+    <a href="#" target="_blank">Performances</a>
+    <br>
+    <a href="/purchase.html" target="_parent">Purchasing  process</a>
+    <br>
+    <a href="#" target="_blank">Supplier management</a>
+    <br>
+    <a href="#" target="_blank">Cost Optimization</a>
+    <br>
+    <a href="#" target="_blank">Risk management</a>
+  </section>
+
+  <section id="assistant" style="display:none;">
+    <!-- Your Personal Assistant page content goes here -->
+    <h2>Personal Assistant Page</h2>
+    <p>Welcome to the Personal Assistant!</p>
+  </section>
+
+  <script>
+    function showTab(tabName) {
+      // Hide all sections
+      document.getElementById('dashboard').style.display = 'none';
+      document.getElementById('assistant').style.display = 'none';
+
+      // Show the selected section
+      document.getElementById(tabName).style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
