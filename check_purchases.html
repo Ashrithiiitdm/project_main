@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check purchases</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #myButton5,
+        #myButton6,
+        #myButton7{
+            display: inline-block;
+            margin-right: 10px;
+            color: #fff;
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Check Purchases
+        </h1>
+    </header>
+    <section>
+        <div>
+            <button id="myButton5" onclick="redirectToOngoing()">Ongoing</button>
+            <script>
+                // JavaScript function to redirect to performance.html
+                function redirectToOngoing() {
+                    window.location.href = '#';
+                }
+            </script>
+        </div>
+        <div>
+            <button id="myButton6" onclick="redirectToPast()">Past Purchases</button>
+            <script>
+                function redirectToPast(){
+                    window.location.href='#'
+                }
+            </script>
+        </div>
+        <div>
+            <button id="myButton7" onclick="redirectToAdd()">Add Purchases</button>
+            <script>
+                function redirectToAdd(){
+                    window.location.href='#'
+                }
+            </script>
+        </div>
+    </section>
+</body>
+</html>
