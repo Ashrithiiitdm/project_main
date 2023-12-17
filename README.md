@@ -4,3 +4,6 @@
 ### Naviagate to the folder
 # project-main/project-main
 > all the files have been tested in MS Edge 112.x.x.x version, Php 8.2.13, Sql 8.2.0
+
+
+> The front page's files is the initial site whcich we made and the upgraded site is in the above folder.
