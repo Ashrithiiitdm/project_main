@@ -7,3 +7,14 @@
 
 
 > The front page's files is the initial site whcich we made and the upgraded site is in the above folder.
+
+## Steps clone this repo
+> naviagte to the directory where you want to clone the repo
+<pre lang = "bash"><code>
+cd path/to/your/directory
+</code></pre>
+> replace username with your own git username
+<pre lang = "bash"><code>
+git clone https://github.com/username/repository.git
+</code></pre>
+
