@@ -1,0 +1,37 @@
+/* style1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: darkslategray;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  main {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

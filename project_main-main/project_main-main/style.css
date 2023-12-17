@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  background-color: darkslategray;
+  color: aliceblue;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  /* position: fixed;  */
+  /* width: 100%; 
+  top: 0; 
+  z-index: 1000;  */
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #333;
+  border-right: 1px solid #ccc;
+  cursor:grab;
+  font-weight: normal;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+nav a:hover {
+  color: darkblue; /* Change the color on hover */
+  font-weight: bolder; /* Bold the text on hover */
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+section {
+  /* display: none; */
+  padding: 20px;
+}
+section {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+section.show {
+  opacity: 0;
+}
+
+#dashboard {
+  background-image: url('https://drive.google.com/uc?id=1eS93W-C6tCiDbyrLXzmli-KmduET0gQU');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  position: relative;
+}
+
+#dashboard-container {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+#dashboard button {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #FFA500;
+  /* Other styles */
+}
+
+#dashboard .performance button,
+#dashboard .purchase button,
+#dashboard .supplier button,
+#dashboard .cost button,
+#dashboard .Risk_management button {
+  display: flex;
+  margin-right: 10px;
+}
+
+#myButton1,
+#myButton2,
+#myButton3,
+#myButton4,
+#myButton5 {
+  padding: 12px 20px;
+  font-size: 22px;
+  transition: background-color 0.5s ease;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+}
+
+#myButton1:hover,
+#myButton2:hover,
+#myButton3:hover,
+#myButton4:hover,
+#myButton5:hover {
+  background-color: darkblue;
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+}
+
+.dash {
+  margin-left: 8px;
+  margin-bottom: 56px;
+  color: initial;
+  transition: color 0.2s ease;
+}
+#assistant
+{
+  display: none;
+  background-image: url('https://drive.google.com/uc?id=13X3_xAb_turZT-CH09Loo1HMsrWH8dBx');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1200px;
+  position: relative;
+}
+.assist
+{
+  color: #ffeb3b;
+}
+/* nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  margin-top: 50px;
+} */
+nav a::before {
+  content: "\2022"; /* Unicode character for a bullet point, you can use icons here */
+  margin-right: 8px;
+}
